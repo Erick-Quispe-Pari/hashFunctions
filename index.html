@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones Hash</title>
+    <link rel="stylesheet" href="/resources/style.css">
+</head>
+<body>
+    <h1>Funciones Hash</h1>
+    <div id="main_container">
+        <div id="inputContainer" class="item_container">
+            <p class="labelInfo">Ingrese el Texto en Claro:</p>
+            <textarea id="text_input" placeholder="Escriba el Texto en Claro"></textarea>
+        </div>
+        <div id="buttons_container" class="item_container">
+            <div class="button_item">
+                <button id="hashMd4">MD4</button>
+            </div>
+            <div class="button_item">
+                <button id="hashMd5">MD5</button>
+            </div>
+            <div class="button_item">
+                <button id="hashSha1">SHA-1</button>
+            </div>
+            <div class="button_item">
+                <button id="hashSha256">SHA-256</button>
+            </div>
+            <div class="button_item">
+                <button id="hashHmac1">HMAC : SHA-1</button>
+            </div>
+            <div class="button_item">
+                <button id="hashHmac256">HMAC : SHA-256</button>
+            </div>
+        </div>
+        <div id="resultContainer" class="item_container">
+            <p class="labelInfo">Resultado:</p>
+            <textarea id="text_result" placeholder="Resultado" readonly></textarea>
+            <p class="labelInfo2" id="lengthResult"></p>
+        </div>
+    </div>
+</body>
+<script src="/resources/script.js"></script>
+</html>
